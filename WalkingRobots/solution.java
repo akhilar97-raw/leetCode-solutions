@@ -1,3 +1,4 @@
+package WalkingRobots;
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {
         int[] dirs = {0, 1, 0, -1, 0};

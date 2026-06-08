@@ -1,3 +1,4 @@
+package RobotsReturnOrigin;
 class Solution {
     public boolean judgeCircle(String moves) {
         int x = 0, y = 0;
