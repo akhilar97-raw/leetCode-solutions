@@ -1,3 +1,7 @@
+package NumberofWaystoAssignEdgeWeights1;
+
+import java.util.*;
+
 class Solution {
     private List<Integer>[] g;
 
