@@ -8,6 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+package MaximumTwinSumofaLinkedList;
 class Solution {
     public int pairSum(ListNode head) {
         List<Integer> s = new ArrayList<>();
