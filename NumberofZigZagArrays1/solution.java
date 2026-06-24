@@ -5,7 +5,6 @@ class Solution {
         int[] dp = new int[r + 1];
         Arrays.fill(dp, 1);
         for (int i = 1; i < n; i++) {
-            
             int pre = 0, pre2;
             if ((i & 1) == 1) {
                 for (int v = 0; v <= r; v++) {
